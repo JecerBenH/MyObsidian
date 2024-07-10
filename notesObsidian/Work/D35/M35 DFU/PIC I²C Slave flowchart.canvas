@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "64d3bcac3d97414a",
+      "type": "group",
+      "x": 460,
+      "y": -460,
+      "width": 700,
+      "height": 575,
+      "label": "I²C Config. Routine"
+    },
+    {
+      "id": "cfb160c48d95816e",
+      "x": -280,
+      "y": -80,
+      "width": 429,
+      "height": 128,
+      "color": "#763737",
+      "type": "group",
+      "label": "Normal mode BL routine "
+    },
+    {
+      "id": "57b3ec188d8c603d",
+      "type": "text",
+      "text": "Read Boot_mode (I²C,UART...) from EEPROM ",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 60,
+      "y": -500,
+      "width": 240,
+      "height": 97
+    },
+    {
+      "id": "dd67aefefbaf90c1",
+      "type": "text",
+      "text": "S",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": -120,
+      "y": -476,
+      "width": 50,
+      "height": 50,
+      "color": "4"
+    },
+    {
+      "id": "422b764d02178335",
+      "type": "text",
+      "text": "Boot_mode == I²C ?",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "x": 50,
+      "y": -321,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bd5424bb127ac8d5",
+      "type": "text",
+      "text": "[SSPxCON1](https://onlinedocs.microchip.com/pr/GUID-6449C1CD-8855-4812-B64E-314070F3DA22-en-US-2/GUID-4F448086-2B3A-48FE-BBF8-C4CA0118FDE2.html) (MSSP Control Register 1):\n- Enable I²C mode (Bit 5 –SSPEN)\n- Select I²C Slave mode (0110)(Bits 3:0 – SSPM[3:0])\n",
+      "styleAttributes": {},
+      "x": 490,
+      "y": -246,
+      "width": 620,
+      "height": 180
+    },
+    {
+      "id": "8dbba8253271b102",
+      "type": "text",
+      "text": "Configure RB1 to ",
+      "styleAttributes": {},
+      "x": 490,
+      "y": -411,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "053d94165bb141c2",
+      "styleAttributes": {},
+      "fromNode": "dd67aefefbaf90c1",
+      "fromSide": "right",
+      "toNode": "57b3ec188d8c603d",
+      "toSide": "left"
+    },
+    {
+      "id": "3b1de843914936fc",
+      "styleAttributes": {},
+      "fromNode": "57b3ec188d8c603d",
+      "fromSide": "bottom",
+      "toNode": "422b764d02178335",
+      "toSide": "top"
+    },
+    {
+      "id": "4fbf5bd2074542ea",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "422b764d02178335",
+      "fromSide": "bottom",
+      "toNode": "64d3bcac3d97414a",
+      "toSide": "left",
+      "color": "4",
+      "label": "YES"
+    },
+    {
+      "id": "70f2b9adda726164",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "422b764d02178335",
+      "fromSide": "left",
+      "toNode": "cfb160c48d95816e",
+      "toSide": "top",
+      "color": "1",
+      "label": "NO"
+    }
+  ],
+  "metadata": {}
+}

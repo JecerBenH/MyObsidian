@@ -1,0 +1,715 @@
+{
+  "nodes": [
+    {
+      "id": "e25feeede9adaf35",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1040,
+      "y": -760,
+      "width": 1780,
+      "height": 1100,
+      "label": "D35"
+    },
+    {
+      "id": "2680f7278c8499cd",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1020,
+      "y": -700,
+      "width": 860,
+      "height": 1020,
+      "label": "ESP32"
+    },
+    {
+      "id": "a0510acdae1d5fb4",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 120,
+      "y": -700,
+      "width": 600,
+      "height": 1020,
+      "label": "STM32"
+    },
+    {
+      "id": "8fbc85b79dbc1b66",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -970,
+      "y": -80,
+      "width": 760,
+      "height": 340,
+      "color": "#8c86e4",
+      "label": "BOOTREASON_UPDATE_M35 Callbacks routine"
+    },
+    {
+      "id": "6c08721fe6ce611b",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 141,
+      "y": -30,
+      "width": 559,
+      "height": 330,
+      "color": "2",
+      "label": "Chunk processing routine"
+    },
+    {
+      "id": "8ca3dcb98816be2f",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 160,
+      "y": 20,
+      "width": 520,
+      "height": 260,
+      "color": "1",
+      "label": "foreach(HexLine)"
+    },
+    {
+      "id": "1f278fd8fd2d7e31",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -80,
+      "y": -700,
+      "width": 120,
+      "height": 1020,
+      "color": "3",
+      "label": "SPI"
+    },
+    {
+      "id": "93d73e69fadbd2fd",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 1080,
+      "y": -500,
+      "width": 440,
+      "height": 230,
+      "label": "M35"
+    },
+    {
+      "id": "4f520f88aab201c5",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": 160,
+      "y": -500,
+      "width": 339,
+      "height": 180,
+      "label": "DFU_info_t"
+    },
+    {
+      "id": "1cb8f05bcb948ba8",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": 840,
+      "y": -500,
+      "width": 120,
+      "height": 230,
+      "color": "3",
+      "label": "UART"
+    },
+    {
+      "id": "48a697fab8fccfec",
+      "type": "text",
+      "text": "Upload Update file to D35 Website",
+      "styleAttributes": {},
+      "x": -1349,
+      "y": -655,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c83c43211ba150b8",
+      "type": "text",
+      "text": "S",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": -1440,
+      "y": -655,
+      "width": 60,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "51f165334f8b6ac9",
+      "type": "text",
+      "text": "Receive Update file in WebAPI controller",
+      "styleAttributes": {},
+      "x": -990,
+      "y": -660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "4287dbb5b7e0abbb",
+      "type": "text",
+      "text": "Raise M35 Update FLAG",
+      "styleAttributes": {},
+      "x": -1000,
+      "y": -390,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "86be2420e533f9a1",
+      "type": "text",
+      "text": "Store in SD card via Storage utils",
+      "styleAttributes": {},
+      "x": -975,
+      "y": -530,
+      "width": 210,
+      "height": 60
+    },
+    {
+      "id": "4f8595cb820f5c15",
+      "type": "text",
+      "text": "System Ready ?",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "x": -980,
+      "y": -270,
+      "width": 220,
+      "height": 50
+    },
+    {
+      "id": "7354860e8a7869a2",
+      "type": "text",
+      "text": "Increment chunk counter (i)",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 179,
+      "y": -485,
+      "width": 299,
+      "height": 50
+    },
+    {
+      "id": "4dab4e68f8c7b4be",
+      "type": "text",
+      "text": "Invoke IPC_BOOTREASON_UPDATE_M35",
+      "styleAttributes": {},
+      "x": 179,
+      "y": -400,
+      "width": 299,
+      "height": 60
+    },
+    {
+      "id": "e773e3765e9767da",
+      "type": "text",
+      "text": "before_cb():\n- read_chunk(i) in RAM\n ",
+      "styleAttributes": {},
+      "x": -900,
+      "y": -40,
+      "width": 280,
+      "height": 90
+    },
+    {
+      "id": "29a4a6b02f93006c",
+      "type": "text",
+      "text": "after_cb():\n- clear RAM\n ",
+      "styleAttributes": {},
+      "x": -680,
+      "y": 120,
+      "width": 201,
+      "height": 90
+    },
+    {
+      "id": "615171771a3e4d21",
+      "type": "text",
+      "text": "BL",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": 1140,
+      "y": -410,
+      "width": 120,
+      "height": 50
+    },
+    {
+      "id": "8a5224e004fc7c35",
+      "type": "text",
+      "text": "FLASH MEMORY",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "database"
+      },
+      "x": 1320,
+      "y": -440,
+      "width": 160,
+      "height": 110,
+      "color": "2"
+    },
+    {
+      "id": "5614d3f1a4172cd0",
+      "type": "text",
+      "text": "RX",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": 860,
+      "y": -360,
+      "width": 75,
+      "height": 60
+    },
+    {
+      "id": "f8ccec0f08b8ec98",
+      "type": "text",
+      "text": "TX",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": 860,
+      "y": -470,
+      "width": 75,
+      "height": 60
+    },
+    {
+      "id": "4375e082d797a985",
+      "type": "text",
+      "text": "Store chunk in RAM",
+      "styleAttributes": {},
+      "x": 160,
+      "y": -189,
+      "width": 219,
+      "height": 50
+    },
+    {
+      "id": "4e3e58808cdfad37",
+      "type": "text",
+      "text": "Correct checksum ?",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "x": 179,
+      "y": 165,
+      "width": 221,
+      "height": 60
+    },
+    {
+      "id": "2ff8ce22434a4f61",
+      "type": "text",
+      "text": "Check checksum of line",
+      "styleAttributes": {},
+      "x": 440,
+      "y": 165,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "4cca0f39ef8a85b7",
+      "type": "text",
+      "text": "Extract address offset",
+      "styleAttributes": {},
+      "x": 199,
+      "y": 45,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "a67848c15605664e",
+      "type": "text",
+      "text": "Extract update record data",
+      "styleAttributes": {},
+      "x": 440,
+      "y": 45,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "1231378f6dd190ff",
+      "type": "text",
+      "text": "Send Update information (size chunck number..) & Init",
+      "styleAttributes": {},
+      "x": -580,
+      "y": -660,
+      "width": 297,
+      "height": 90
+    },
+    {
+      "id": "174d891a3653feb4",
+      "type": "text",
+      "text": "init update buffers & chunk counters",
+      "styleAttributes": {},
+      "x": -550,
+      "y": -530,
+      "width": 237,
+      "height": 60
+    },
+    {
+      "id": "60d1e9dd941beed8",
+      "type": "text",
+      "text": "**DFU_ctx_t**\n- bootreason_t\n- DFU_info_t",
+      "styleAttributes": {
+        "shape": "document",
+        "textAlign": null
+      },
+      "x": -431,
+      "y": -400,
+      "width": 198,
+      "height": 207
+    },
+    {
+      "id": "c7c649f1bd5fe00d",
+      "type": "text",
+      "text": "main_cb():\n- send chunk\n ",
+      "styleAttributes": {},
+      "x": -479,
+      "y": -40,
+      "width": 203,
+      "height": 90
+    },
+    {
+      "id": "38e4f52f6ad21f64",
+      "type": "text",
+      "text": "TX",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -60,
+      "y": -110,
+      "width": 75,
+      "height": 60
+    },
+    {
+      "id": "4637682d91f78153",
+      "type": "text",
+      "text": "RX",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -60,
+      "y": -10,
+      "width": 75,
+      "height": 60
+    },
+    {
+      "id": "28be233a9ead6c3f",
+      "type": "text",
+      "text": "**PIC\n Bootloader\nInterface**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process",
+        "border": null
+      },
+      "x": 560,
+      "y": -636,
+      "width": 141,
+      "height": 502,
+      "color": "6"
+    },
+    {
+      "id": "fbe1843bf59b952f",
+      "type": "text",
+      "text": "DFU_init()",
+      "styleAttributes": {},
+      "x": 259,
+      "y": -645,
+      "width": 140,
+      "height": 60
+    },
+    {
+      "id": "18f473cab11d9cea",
+      "type": "text",
+      "text": "NO",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": 40,
+      "y": 170,
+      "width": 50,
+      "height": 50,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "857e158fe8625746",
+      "styleAttributes": {},
+      "fromNode": "c83c43211ba150b8",
+      "fromSide": "right",
+      "toNode": "48a697fab8fccfec",
+      "toSide": "left"
+    },
+    {
+      "id": "eabf47981e1c2718",
+      "styleAttributes": {
+        "arrow": "thin-triangle"
+      },
+      "fromNode": "615171771a3e4d21",
+      "fromSide": "right",
+      "toNode": "8a5224e004fc7c35",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "bc01b822e1fe4394",
+      "styleAttributes": {},
+      "fromNode": "5614d3f1a4172cd0",
+      "fromSide": "right",
+      "toNode": "615171771a3e4d21",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "7ca669fd30238f63",
+      "styleAttributes": {},
+      "fromNode": "615171771a3e4d21",
+      "fromSide": "left",
+      "toNode": "f8ccec0f08b8ec98",
+      "toSide": "right",
+      "color": "3",
+      "label": "ACK"
+    },
+    {
+      "id": "b71004b7dcdf29bc",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4dab4e68f8c7b4be",
+      "fromSide": "bottom",
+      "toNode": "38e4f52f6ad21f64",
+      "toSide": "top",
+      "color": "3",
+      "label": "2"
+    },
+    {
+      "id": "68712c642978d8f6",
+      "styleAttributes": {},
+      "fromNode": "4637682d91f78153",
+      "fromSide": "right",
+      "toNode": "4375e082d797a985",
+      "toSide": "left",
+      "color": "3",
+      "label": "1"
+    },
+    {
+      "id": "864b5838fd1535b1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4375e082d797a985",
+      "fromSide": "bottom",
+      "toNode": "6c08721fe6ce611b",
+      "toSide": "top"
+    },
+    {
+      "id": "5bf5a7dea7902094",
+      "styleAttributes": {},
+      "fromNode": "a67848c15605664e",
+      "fromSide": "bottom",
+      "toNode": "2ff8ce22434a4f61",
+      "toSide": "top"
+    },
+    {
+      "id": "3b2539e3959d7eb6",
+      "styleAttributes": {},
+      "fromNode": "4cca0f39ef8a85b7",
+      "fromSide": "right",
+      "toNode": "a67848c15605664e",
+      "toSide": "left"
+    },
+    {
+      "id": "d8c8717c20979377",
+      "styleAttributes": {},
+      "fromNode": "2ff8ce22434a4f61",
+      "fromSide": "left",
+      "toNode": "4e3e58808cdfad37",
+      "toSide": "right"
+    },
+    {
+      "id": "bc957658170d6140",
+      "styleAttributes": {},
+      "fromNode": "fbe1843bf59b952f",
+      "fromSide": "bottom",
+      "toNode": "4f520f88aab201c5",
+      "toSide": "top"
+    },
+    {
+      "id": "54c15ee6379688b5",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4e3e58808cdfad37",
+      "fromSide": "bottom",
+      "toNode": "28be233a9ead6c3f",
+      "toSide": "bottom",
+      "color": "4"
+    },
+    {
+      "id": "1ba0d9443566e7e9",
+      "styleAttributes": {},
+      "fromNode": "4e3e58808cdfad37",
+      "fromSide": "left",
+      "toNode": "18f473cab11d9cea",
+      "toSide": "right",
+      "color": "1"
+    },
+    {
+      "id": "0c2979bd57a29b70",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "18f473cab11d9cea",
+      "fromSide": "top",
+      "toNode": "4f520f88aab201c5",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "1c02b6693927bcf9",
+      "styleAttributes": {},
+      "fromNode": "48a697fab8fccfec",
+      "fromSide": "right",
+      "toNode": "51f165334f8b6ac9",
+      "toSide": "left"
+    },
+    {
+      "id": "4848c54e330490c7",
+      "styleAttributes": {},
+      "fromNode": "51f165334f8b6ac9",
+      "fromSide": "bottom",
+      "toNode": "86be2420e533f9a1",
+      "toSide": "top"
+    },
+    {
+      "id": "5862371f86295b62",
+      "styleAttributes": {},
+      "fromNode": "86be2420e533f9a1",
+      "fromSide": "bottom",
+      "toNode": "4287dbb5b7e0abbb",
+      "toSide": "top"
+    },
+    {
+      "id": "7801dd60f64965c3",
+      "styleAttributes": {},
+      "fromNode": "4287dbb5b7e0abbb",
+      "fromSide": "bottom",
+      "toNode": "4f8595cb820f5c15",
+      "toSide": "top"
+    },
+    {
+      "id": "613bc2433f6107c3",
+      "styleAttributes": {},
+      "fromNode": "4f8595cb820f5c15",
+      "fromSide": "right",
+      "toNode": "1231378f6dd190ff",
+      "toSide": "left",
+      "color": "4",
+      "label": "YES"
+    },
+    {
+      "id": "c48d35f51c0ad44a",
+      "styleAttributes": {
+        "arrow": null
+      },
+      "fromNode": "1231378f6dd190ff",
+      "fromSide": "right",
+      "toNode": "fbe1843bf59b952f",
+      "toSide": "left",
+      "color": "3",
+      "label": "IPC_Action"
+    },
+    {
+      "id": "c69cabb039085fe6",
+      "styleAttributes": {},
+      "fromNode": "1231378f6dd190ff",
+      "fromSide": "bottom",
+      "toNode": "174d891a3653feb4",
+      "toSide": "top"
+    },
+    {
+      "id": "4bcffc88a267bc84",
+      "styleAttributes": {},
+      "fromNode": "e773e3765e9767da",
+      "fromSide": "right",
+      "toNode": "c7c649f1bd5fe00d",
+      "toSide": "left"
+    },
+    {
+      "id": "6677b111d7dd526b",
+      "styleAttributes": {},
+      "fromNode": "c7c649f1bd5fe00d",
+      "fromSide": "bottom",
+      "toNode": "29a4a6b02f93006c",
+      "toSide": "right"
+    },
+    {
+      "id": "de6c1b7ce31d034c",
+      "styleAttributes": {},
+      "fromNode": "c7c649f1bd5fe00d",
+      "fromSide": "right",
+      "toNode": "38e4f52f6ad21f64",
+      "toSide": "left",
+      "color": "3",
+      "label": "1"
+    },
+    {
+      "id": "6a2304f8a2587614",
+      "styleAttributes": {},
+      "fromNode": "4f8595cb820f5c15",
+      "fromSide": "left",
+      "toNode": "4287dbb5b7e0abbb",
+      "toSide": "left",
+      "color": "1",
+      "label": "NO"
+    },
+    {
+      "id": "859a5c2a22396706",
+      "styleAttributes": {},
+      "fromNode": "4637682d91f78153",
+      "fromSide": "left",
+      "toNode": "60d1e9dd941beed8",
+      "toSide": "right",
+      "color": "3",
+      "label": "2"
+    },
+    {
+      "id": "73b289f0bab567b0",
+      "styleAttributes": {
+        "path": "long-dashed",
+        "arrow": "thin-triangle"
+      },
+      "fromNode": "60d1e9dd941beed8",
+      "fromSide": "left",
+      "toNode": "8fbc85b79dbc1b66",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "6673770dc985e4a0",
+      "styleAttributes": {},
+      "fromNode": "28be233a9ead6c3f",
+      "fromSide": "right",
+      "toNode": "f8ccec0f08b8ec98",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "a30707c5383b7e6f",
+      "styleAttributes": {},
+      "fromNode": "5614d3f1a4172cd0",
+      "fromSide": "left",
+      "toNode": "28be233a9ead6c3f",
+      "toSide": "right",
+      "color": "3"
+    }
+  ],
+  "metadata": {}
+}
