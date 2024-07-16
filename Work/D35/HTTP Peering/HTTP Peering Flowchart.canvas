@@ -1,0 +1,864 @@
+{
+  "nodes": [
+    {
+      "id": "8b91e26a75ac1d0c",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1240,
+      "y": -420,
+      "width": 880,
+      "height": 1000,
+      "label": "D35 (Subscriber)"
+    },
+    {
+      "id": "0178efd59c903144",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 120,
+      "y": -400,
+      "width": 640,
+      "height": 560,
+      "label": "D35 (Publisher)"
+    },
+    {
+      "id": "c159d630d4456cd0",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -720,
+      "y": -760,
+      "width": 1350,
+      "height": 220,
+      "label": "L2V"
+    },
+    {
+      "id": "24e70dcb5e919bce",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1220,
+      "y": -367,
+      "width": 500,
+      "height": 514,
+      "label": "L2V API"
+    },
+    {
+      "id": "192f5570fe3b6eaa",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1220,
+      "y": 220,
+      "width": 560,
+      "height": 335,
+      "label": "X-Website Controller"
+    },
+    {
+      "id": "1e42645eb31a192c",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 150,
+      "y": -260,
+      "width": 580,
+      "height": 175,
+      "label": "L2V API"
+    },
+    {
+      "id": "50c7a9da8a9cb46b",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 165,
+      "y": 0,
+      "width": 550,
+      "height": 140,
+      "color": "2",
+      "label": "(Loop) every interval: I/O Values"
+    },
+    {
+      "id": "95a98b791708a8ec",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -533,
+      "y": -699,
+      "width": 653,
+      "height": 98,
+      "label": "L2V API"
+    },
+    {
+      "id": "0e18c50cb1cd8008",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -660,
+      "y": -68,
+      "width": 240,
+      "height": 137,
+      "label": "Override API"
+    },
+    {
+      "id": "ce3b734568403ffa",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -610,
+      "y": 122,
+      "width": 140,
+      "height": 79,
+      "label": "I/O"
+    },
+    {
+      "id": "a7520b440f07ed7a",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -1660,
+      "y": -487,
+      "width": 300,
+      "height": 1067,
+      "color": "6",
+      "label": "X-Website (User)"
+    },
+    {
+      "id": "77f8339944f8bf80",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": 880,
+      "y": -400,
+      "width": 305,
+      "height": 374,
+      "color": "6",
+      "label": "X-Website"
+    },
+    {
+      "id": "3851a16bb8c83998",
+      "type": "text",
+      "text": "HTTP/FTP selected \nAs Transport ?",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "x": -1633,
+      "y": -332,
+      "width": 250,
+      "height": 94
+    },
+    {
+      "id": "3a6508ad6f52d922",
+      "type": "text",
+      "text": "Subscribe to a Publisher from List",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1608,
+      "y": -138,
+      "width": 201,
+      "height": 59
+    },
+    {
+      "id": "67635647125a4aa9",
+      "type": "text",
+      "text": "Choose which I/O to Override  ",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1598,
+      "y": 369,
+      "width": 181,
+      "height": 50
+    },
+    {
+      "id": "32118e8bc2f6c086",
+      "type": "text",
+      "text": "Show new I/O values",
+      "styleAttributes": {},
+      "x": -1598,
+      "y": 472,
+      "width": 183,
+      "height": 60
+    },
+    {
+      "id": "d721e3243b914670",
+      "type": "text",
+      "text": "Start",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": -1760,
+      "y": -462,
+      "width": 60,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "aa1ec6bb5bbeac88",
+      "type": "text",
+      "text": "Error_Handler",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1937,
+      "y": -317,
+      "width": 177,
+      "height": 65,
+      "color": "1"
+    },
+    {
+      "id": "73234878c20105b3",
+      "type": "text",
+      "text": "Configure device as Subscriber",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1568,
+      "y": -472,
+      "width": 120,
+      "height": 80
+    },
+    {
+      "id": "2cc9fa84d51cc2d6",
+      "type": "text",
+      "text": "- Publisher Transfer interval\n- L2V GW address",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": 880,
+      "y": 40,
+      "width": 305,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "23262e2aaa4aad91",
+      "type": "text",
+      "text": "Configure device as Publisher",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 972,
+      "y": -385,
+      "width": 120,
+      "height": 80
+    },
+    {
+      "id": "f764400d7a8694f6",
+      "type": "text",
+      "text": "HTTP/FTP selected \nAs Transport ?",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "x": 907,
+      "y": -187,
+      "width": 250,
+      "height": 94
+    },
+    {
+      "id": "71c9442754bc9f4a",
+      "type": "text",
+      "text": "Start",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": 1232,
+      "y": -375,
+      "width": 60,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "37b56b53bcccc06f",
+      "type": "text",
+      "text": "Error_Handler",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 1312,
+      "y": -172,
+      "width": 177,
+      "height": 65,
+      "color": "1"
+    },
+    {
+      "id": "ca91e74516d8177d",
+      "type": "text",
+      "text": "Override I/O with latestValue from Publisher",
+      "styleAttributes": {},
+      "x": -660,
+      "y": -52,
+      "width": 235,
+      "height": 89
+    },
+    {
+      "id": "947f95ad2f8a3ab8",
+      "type": "text",
+      "text": "AO",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": -600,
+      "y": 141,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "501315b95ca294a0",
+      "type": "text",
+      "text": "DO",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": -530,
+      "y": 141,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "e5a5de65a28aeeec",
+      "type": "text",
+      "text": "Parse Publishers List & send to X-Website",
+      "styleAttributes": {},
+      "x": -1200,
+      "y": 232,
+      "width": 260,
+      "height": 98
+    },
+    {
+      "id": "2546712b85193515",
+      "type": "text",
+      "text": "Parse Channels List & send to X-Website",
+      "styleAttributes": {},
+      "x": -970,
+      "y": 345,
+      "width": 260,
+      "height": 98
+    },
+    {
+      "id": "4efe6378b6e67ff6",
+      "type": "text",
+      "text": "<mark class=\"hltr-o\">R1 (Response):</mark>\n{\n  \"count\",\n  \"publishers\":[]\n}",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -330,
+      "y": 204,
+      "width": 240,
+      "height": 155,
+      "color": "2"
+    },
+    {
+      "id": "4817695eeca6a6b5",
+      "type": "text",
+      "text": "<mark class=\"hltr-b\">R2 (Response):</mark>\n{\n  \"count\",\n  \"ChannelList\":[]\n}",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -140,
+      "y": 311,
+      "width": 260,
+      "height": 166,
+      "color": "5"
+    },
+    {
+      "id": "6869310d3dc83c87",
+      "type": "text",
+      "text": "DI",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": 545,
+      "y": 40,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8d151c9a5970eb26",
+      "type": "text",
+      "text": "Send latest data endpoint\nPOST Request: https://www.link2valves.com/api/devices/{imei}/peering/latest-data",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": 240,
+      "y": -239,
+      "width": 400,
+      "height": 131
+    },
+    {
+      "id": "4723545eb93ef8f6",
+      "type": "text",
+      "text": "VAR",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": 265,
+      "y": 40,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7b7a1f1ca56b4fc8",
+      "type": "text",
+      "text": "ESP HTTPS stack",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 350,
+      "y": -375,
+      "width": 180,
+      "height": 55,
+      "color": "5"
+    },
+    {
+      "id": "7bb602e302c0fc3b",
+      "type": "text",
+      "text": "AI",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "circle"
+      },
+      "x": 405,
+      "y": 40,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ecb785e298de45b4",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {
+        "shape": "circle",
+        "border": "dotted"
+      },
+      "x": -766,
+      "y": 477,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "b10ebce366a42c72",
+      "type": "text",
+      "text": "<mark class=\"hltr-r\">Ports</mark>: \n[\"id\",\n\"latestValue\",\n\"timestamp\" ]",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": 700,
+      "y": -731,
+      "width": 213,
+      "height": 160
+    },
+    {
+      "id": "a7cc4efbd1d78b30",
+      "type": "text",
+      "text": "L2V DB",
+      "styleAttributes": {
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "x": 421,
+      "y": -700,
+      "width": 119,
+      "height": 98
+    },
+    {
+      "id": "d64f6f618fc2371a",
+      "type": "text",
+      "text": "Fetch latest data",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -510,
+      "y": -675,
+      "width": 180,
+      "height": 50,
+      "color": "6"
+    },
+    {
+      "id": "3b7008b5e81fb9f0",
+      "type": "text",
+      "text": "List of All Publishers endpoint\nGET Request: https://www.link2valves.com/api/devices/{imei}/peering/publishers",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1177,
+      "y": -346,
+      "width": 400,
+      "height": 131
+    },
+    {
+      "id": "4bc84534d261e275",
+      "type": "text",
+      "text": "Fetch data from Publishers endpoint\nGET Request: https://www.link2valves.com/api/devices/{imei}/peering/latest-data/{channelIds}",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1200,
+      "y": 0,
+      "width": 434,
+      "height": 122
+    },
+    {
+      "id": "9014d3937932d60d",
+      "type": "text",
+      "text": "List of Channels of the Publisher endpoint\nGET Request: https://www.link2valves.com/iot/devices/{imei}/peering/publishers/{publisherImei}",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1200,
+      "y": -200,
+      "width": 460,
+      "height": 182
+    },
+    {
+      "id": "06e2a96324e4e4bf",
+      "type": "text",
+      "text": "<mark class=\"hltr-p\">R3 (Response):</mark> \n[\"id\",\n\"latestValue\",\n\"timestamp\" ]",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -533,
+      "y": -346,
+      "width": 226,
+      "height": 160,
+      "color": "6"
+    },
+    {
+      "id": "86cce20f11e9b31c",
+      "type": "text",
+      "text": "List of All pubs",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -300,
+      "y": -675,
+      "width": 180,
+      "height": 50,
+      "color": "2"
+    },
+    {
+      "id": "8c0763a1679c886b",
+      "type": "text",
+      "text": "List of Channels",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -100,
+      "y": -675,
+      "width": 180,
+      "height": 50,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2abed838cd0d05f9",
+      "styleAttributes": {
+        "arrow": "triangle-outline"
+      },
+      "fromNode": "1e42645eb31a192c",
+      "fromSide": "bottom",
+      "toNode": "50c7a9da8a9cb46b",
+      "toSide": "top",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "a4fa2d5e35ea0d00",
+      "styleAttributes": {
+        "arrow": "triangle-outline"
+      },
+      "fromNode": "7b7a1f1ca56b4fc8",
+      "fromSide": "bottom",
+      "toNode": "1e42645eb31a192c",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "c79867ca345f0826",
+      "styleAttributes": {},
+      "fromNode": "23262e2aaa4aad91",
+      "fromSide": "bottom",
+      "toNode": "f764400d7a8694f6",
+      "toSide": "top"
+    },
+    {
+      "id": "5e674723c70cf4b9",
+      "styleAttributes": {},
+      "fromNode": "f764400d7a8694f6",
+      "fromSide": "bottom",
+      "toNode": "2cc9fa84d51cc2d6",
+      "toSide": "top",
+      "color": "4",
+      "label": "Yes"
+    },
+    {
+      "id": "8ee4e28912213fb7",
+      "styleAttributes": {},
+      "fromNode": "2cc9fa84d51cc2d6",
+      "fromSide": "left",
+      "toNode": "0178efd59c903144",
+      "toSide": "right",
+      "color": "4"
+    },
+    {
+      "id": "0f11c6d436384f2d",
+      "styleAttributes": {},
+      "fromNode": "71c9442754bc9f4a",
+      "fromSide": "left",
+      "toNode": "23262e2aaa4aad91",
+      "toSide": "right",
+      "color": "3"
+    },
+    {
+      "id": "aeb1c081aac46958",
+      "styleAttributes": {},
+      "fromNode": "f764400d7a8694f6",
+      "fromSide": "right",
+      "toNode": "37b56b53bcccc06f",
+      "toSide": "left",
+      "color": "1",
+      "label": "No"
+    },
+    {
+      "id": "673d08a602da410a",
+      "styleAttributes": {},
+      "fromNode": "7b7a1f1ca56b4fc8",
+      "fromSide": "top",
+      "toNode": "b10ebce366a42c72",
+      "toSide": "bottom",
+      "label": "R0"
+    },
+    {
+      "id": "59e809c7a627fb7e",
+      "styleAttributes": {},
+      "fromNode": "b10ebce366a42c72",
+      "fromSide": "left",
+      "toNode": "a7cc4efbd1d78b30",
+      "toSide": "right"
+    },
+    {
+      "id": "f898da6faa11e828",
+      "styleAttributes": {
+        "path": "dotted",
+        "arrow": "triangle-outline"
+      },
+      "fromNode": "95a98b791708a8ec",
+      "fromSide": "right",
+      "toNode": "a7cc4efbd1d78b30",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "dc0cafea72cddfe1",
+      "styleAttributes": {},
+      "fromNode": "73234878c20105b3",
+      "fromSide": "bottom",
+      "toNode": "3851a16bb8c83998",
+      "toSide": "top"
+    },
+    {
+      "id": "97656fc15390a44d",
+      "styleAttributes": {},
+      "fromNode": "d721e3243b914670",
+      "fromSide": "right",
+      "toNode": "73234878c20105b3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "ed6e58bbad0857c3",
+      "styleAttributes": {},
+      "fromNode": "3851a16bb8c83998",
+      "fromSide": "left",
+      "toNode": "aa1ec6bb5bbeac88",
+      "toSide": "right",
+      "color": "1",
+      "label": "No"
+    },
+    {
+      "id": "129043fe454a1ac8",
+      "styleAttributes": {},
+      "fromNode": "3851a16bb8c83998",
+      "fromSide": "right",
+      "toNode": "3b7008b5e81fb9f0",
+      "toSide": "left",
+      "color": "4",
+      "label": "Yes"
+    },
+    {
+      "id": "753ec91a2cf7fa9f",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "3b7008b5e81fb9f0",
+      "fromSide": "top",
+      "toNode": "c159d630d4456cd0",
+      "toSide": "left",
+      "color": "2",
+      "label": "Req1"
+    },
+    {
+      "id": "14660482094cc618",
+      "styleAttributes": {},
+      "fromNode": "86cce20f11e9b31c",
+      "fromSide": "bottom",
+      "toNode": "4efe6378b6e67ff6",
+      "toSide": "top",
+      "color": "2",
+      "label": "Res1"
+    },
+    {
+      "id": "5db1406cf9c99667",
+      "styleAttributes": {},
+      "fromNode": "4efe6378b6e67ff6",
+      "fromSide": "left",
+      "toNode": "e5a5de65a28aeeec",
+      "toSide": "right",
+      "color": "2"
+    },
+    {
+      "id": "70018bf64123cdfa",
+      "styleAttributes": {},
+      "fromNode": "e5a5de65a28aeeec",
+      "fromSide": "left",
+      "toNode": "3a6508ad6f52d922",
+      "toSide": "bottom",
+      "color": "2"
+    },
+    {
+      "id": "63cdcba278904f16",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "3a6508ad6f52d922",
+      "fromSide": "right",
+      "toNode": "9014d3937932d60d",
+      "toSide": "left"
+    },
+    {
+      "id": "d05784b7ad0fac5d",
+      "styleAttributes": {},
+      "fromNode": "9014d3937932d60d",
+      "fromSide": "right",
+      "toNode": "c159d630d4456cd0",
+      "toSide": "left",
+      "color": "5",
+      "label": "Req2"
+    },
+    {
+      "id": "93b0749abb4dc965",
+      "styleAttributes": {},
+      "fromNode": "8c0763a1679c886b",
+      "fromSide": "bottom",
+      "toNode": "4817695eeca6a6b5",
+      "toSide": "top",
+      "color": "5",
+      "label": "Res2"
+    },
+    {
+      "id": "823163caf174ce0f",
+      "styleAttributes": {},
+      "fromNode": "4817695eeca6a6b5",
+      "fromSide": "left",
+      "toNode": "2546712b85193515",
+      "toSide": "right",
+      "color": "5"
+    },
+    {
+      "id": "8abd25442333750e",
+      "styleAttributes": {},
+      "fromNode": "2546712b85193515",
+      "fromSide": "left",
+      "toNode": "67635647125a4aa9",
+      "toSide": "right",
+      "color": "5"
+    },
+    {
+      "id": "df479ab72df7feaf",
+      "styleAttributes": {},
+      "fromNode": "67635647125a4aa9",
+      "fromSide": "top",
+      "toNode": "4bc84534d261e275",
+      "toSide": "left"
+    },
+    {
+      "id": "07bb4436ceba94e2",
+      "styleAttributes": {},
+      "fromNode": "4bc84534d261e275",
+      "fromSide": "right",
+      "toNode": "c159d630d4456cd0",
+      "toSide": "left",
+      "color": "6",
+      "label": "Req3"
+    },
+    {
+      "id": "125c92abcee08ed4",
+      "styleAttributes": {},
+      "fromNode": "d64f6f618fc2371a",
+      "fromSide": "bottom",
+      "toNode": "06e2a96324e4e4bf",
+      "toSide": "top",
+      "color": "6",
+      "label": "Res3"
+    },
+    {
+      "id": "0ee1a842ac69a0fa",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "0e18c50cb1cd8008",
+      "fromSide": "left",
+      "toNode": "ce3b734568403ffa",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "137166cc9dcfa70e",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "0e18c50cb1cd8008",
+      "fromSide": "right",
+      "toNode": "ce3b734568403ffa",
+      "toSide": "right",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "4b42cbd1ed39e10d",
+      "styleAttributes": {},
+      "fromNode": "06e2a96324e4e4bf",
+      "fromSide": "bottom",
+      "toNode": "ca91e74516d8177d",
+      "toSide": "top",
+      "color": "6"
+    },
+    {
+      "id": "925f997390232f51",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ce3b734568403ffa",
+      "fromSide": "bottom",
+      "toNode": "ecb785e298de45b4",
+      "toSide": "right"
+    },
+    {
+      "id": "2a4ed97f55a30546",
+      "styleAttributes": {},
+      "fromNode": "ecb785e298de45b4",
+      "fromSide": "left",
+      "toNode": "32118e8bc2f6c086",
+      "toSide": "right"
+    }
+  ],
+  "metadata": {}
+}

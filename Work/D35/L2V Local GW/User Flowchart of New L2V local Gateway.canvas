@@ -1,0 +1,594 @@
+{
+  "nodes": [
+    {
+      "id": "b17f9044e9d078a8",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1240,
+      "y": -320,
+      "width": 600,
+      "height": 1730,
+      "label": "ESP32"
+    },
+    {
+      "id": "6b1b2863852acf10",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -520,
+      "y": -480,
+      "width": 920,
+      "height": 1045,
+      "label": "D35 Website"
+    },
+    {
+      "id": "01b16357b625ddfd",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1880,
+      "y": 760,
+      "width": 420,
+      "height": 400,
+      "label": "Cert. Config. routine"
+    },
+    {
+      "id": "f5f4f0f611df8ecb",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -2080,
+      "y": -200,
+      "width": 720,
+      "height": 220,
+      "label": "L2V local GW"
+    },
+    {
+      "id": "11cdc7dbc560493a",
+      "type": "text",
+      "text": "START",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -900,
+      "y": -435,
+      "width": 90,
+      "height": 50,
+      "color": "4"
+    },
+    {
+      "id": "efe44fb5b84cff31",
+      "type": "text",
+      "text": "TELIT Modem",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -1830,
+      "y": 510,
+      "width": 260,
+      "height": 70
+    },
+    {
+      "id": "c200ac7d65962155",
+      "type": "text",
+      "text": "https://<ip_or_domain>/system/server-cert/<device_imei>",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1988,
+      "y": -125,
+      "width": 576,
+      "height": 110,
+      "color": "3"
+    },
+    {
+      "id": "625993daa01cc817",
+      "type": "text",
+      "text": "User",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -740,
+      "y": -435,
+      "width": 73,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "352a9a566363a411",
+      "type": "text",
+      "text": "Parse cert. to file",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1800,
+      "y": 780,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "2a4fa72c75e0565e",
+      "type": "text",
+      "text": "init log_api.c to use new config using (esp_http_client_init)",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1820,
+      "y": 1038,
+      "width": 300,
+      "height": 105
+    },
+    {
+      "id": "ca6b9e7f5c6671a5",
+      "type": "text",
+      "text": "Add new certificate to trusted Certs in \"certificates\" folder",
+      "isStartNode": false,
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1820,
+      "y": 880,
+      "width": 300,
+      "height": 123
+    },
+    {
+      "id": "5599d88b85be88f7",
+      "type": "text",
+      "text": "Store GW data in config_manager.c ",
+      "styleAttributes": {},
+      "x": -1131,
+      "y": -230,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "da2090d2f8f3f2d8",
+      "type": "text",
+      "text": "Registration successfull ?",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "diamond"
+      },
+      "x": -1100,
+      "y": 73,
+      "width": 329,
+      "height": 87
+    },
+    {
+      "id": "948e5923507ed578",
+      "type": "text",
+      "text": "Generate initial token following this pattern (Authorization header): \n<device_imei>:<registration_password>",
+      "styleAttributes": {},
+      "x": -1138,
+      "y": 291,
+      "width": 406,
+      "height": 109
+    },
+    {
+      "id": "d854ed7ed5b8434c",
+      "type": "text",
+      "text": "Open : Settings/Connectivity Menu",
+      "styleAttributes": {},
+      "x": -480,
+      "y": -440,
+      "width": 360,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "f3919cb706e6b8ab",
+      "type": "text",
+      "text": "Fill in required fields :\n- IP address *\n- Server ID *\n- Registration password\n",
+      "styleAttributes": {},
+      "x": 20,
+      "y": -370,
+      "width": 280,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "7375d19e0c840199",
+      "type": "text",
+      "text": "Choose L2V Gateway from \"Data transfer\" section",
+      "styleAttributes": {},
+      "x": -426,
+      "y": -320,
+      "width": 253,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "57b21bd10eaa0179",
+      "type": "text",
+      "text": "Required Params Filled ?",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "diamond"
+      },
+      "x": -255,
+      "y": -200,
+      "width": 279,
+      "height": 80
+    },
+    {
+      "id": "756e9bdfe40d81b7",
+      "type": "text",
+      "text": "Display Register button",
+      "styleAttributes": {},
+      "x": -385,
+      "y": -70,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "274b5e42e6f428bc",
+      "type": "text",
+      "text": "{\"id\": \"string\", \"cert\": \"string\"}",
+      "styleAttributes": {},
+      "x": -1120,
+      "y": 460,
+      "width": 370,
+      "height": 50
+    },
+    {
+      "id": "c23e66883d77a4af",
+      "type": "text",
+      "text": "Change default L2V(https://link2valves.com) to Local L2V GW (https://<ip_or_domain>/api/devices)",
+      "styleAttributes": {},
+      "x": -1208,
+      "y": 1025,
+      "width": 546,
+      "height": 93
+    },
+    {
+      "id": "55abbe50d915ec6c",
+      "type": "text",
+      "text": "Change default L2V API to new GW in iot.json file and config",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "document"
+      },
+      "x": -1067,
+      "y": 1223,
+      "width": 260,
+      "height": 117
+    },
+    {
+      "id": "b6cc0e533b68f0e8",
+      "type": "text",
+      "text": "END",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -976,
+      "y": 1480,
+      "width": 78,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "fe34c59bda7fea72",
+      "type": "text",
+      "text": "Use user password",
+      "styleAttributes": {},
+      "x": -76,
+      "y": 400,
+      "width": 201,
+      "height": 60
+    },
+    {
+      "id": "fa92d908353d9f64",
+      "type": "text",
+      "text": "Register Button stays disabled",
+      "styleAttributes": {},
+      "x": 160,
+      "y": -40,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "f9147deed5b858ec",
+      "type": "text",
+      "text": "\"Registration password\" \nConfigured ?",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "diamond"
+      },
+      "x": -425,
+      "y": 120,
+      "width": 340,
+      "height": 80
+    },
+    {
+      "id": "e5b95add3da2c2e2",
+      "type": "text",
+      "text": "Use \"GATEWAY-DEVICE-DEFAULT\" password",
+      "styleAttributes": {},
+      "x": -368,
+      "y": 280,
+      "width": 226,
+      "height": 60
+    },
+    {
+      "id": "2dcce15e334ced4d",
+      "type": "text",
+      "text": "Verify Server ID",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "diamond"
+      },
+      "x": -1063,
+      "y": 565,
+      "width": 256,
+      "height": 75
+    },
+    {
+      "id": "ddda0e7be98aac42",
+      "type": "text",
+      "text": "Save & Trust \nServer Certificate",
+      "styleAttributes": {},
+      "x": -1046,
+      "y": 800,
+      "width": 221,
+      "height": 67
+    }
+  ],
+  "edges": [
+    {
+      "id": "99907aa115e6e9ae",
+      "edgePathRoute": "square",
+      "fromNode": "625993daa01cc817",
+      "fromSide": "right",
+      "toNode": "d854ed7ed5b8434c",
+      "toSide": "left"
+    },
+    {
+      "id": "92aeb67985ca18a5",
+      "fromNode": "d854ed7ed5b8434c",
+      "fromSide": "bottom",
+      "toNode": "7375d19e0c840199",
+      "toSide": "top"
+    },
+    {
+      "id": "00e3bb5995f216d4",
+      "fromNode": "7375d19e0c840199",
+      "fromSide": "right",
+      "toNode": "f3919cb706e6b8ab",
+      "toSide": "left"
+    },
+    {
+      "id": "32aed0c12d02453c",
+      "fromNode": "f3919cb706e6b8ab",
+      "fromSide": "bottom",
+      "toNode": "57b21bd10eaa0179",
+      "toSide": "right"
+    },
+    {
+      "id": "f9f8729105d3a63f",
+      "fromNode": "57b21bd10eaa0179",
+      "fromSide": "right",
+      "toNode": "fa92d908353d9f64",
+      "toSide": "left",
+      "color": "1",
+      "label": "NO"
+    },
+    {
+      "id": "2e86340d9f5f53af",
+      "fromNode": "756e9bdfe40d81b7",
+      "fromSide": "bottom",
+      "toNode": "f9147deed5b858ec",
+      "toSide": "top",
+      "label": "\"Register\" pressed "
+    },
+    {
+      "id": "0c42f3ac5f5179da",
+      "fromNode": "f9147deed5b858ec",
+      "fromSide": "bottom",
+      "toNode": "e5b95add3da2c2e2",
+      "toSide": "top",
+      "color": "1",
+      "label": "NO"
+    },
+    {
+      "id": "19414ec0538e80be",
+      "fromNode": "fe34c59bda7fea72",
+      "fromSide": "left",
+      "toNode": "948e5923507ed578",
+      "toSide": "right"
+    },
+    {
+      "id": "7fb1c2a14586e253",
+      "edgePathRoute": "a-star",
+      "fromNode": "fa92d908353d9f64",
+      "fromSide": "top",
+      "toNode": "f3919cb706e6b8ab",
+      "toSide": "right"
+    },
+    {
+      "id": "e47e193aa6e3cb55",
+      "fromNode": "274b5e42e6f428bc",
+      "fromSide": "bottom",
+      "toNode": "2dcce15e334ced4d",
+      "toSide": "top"
+    },
+    {
+      "id": "36d4ede731cf4765",
+      "fromNode": "2dcce15e334ced4d",
+      "fromSide": "right",
+      "toNode": "756e9bdfe40d81b7",
+      "toSide": "left",
+      "color": "1",
+      "label": "NOT VALID"
+    },
+    {
+      "id": "57fcd77d8950a1cd",
+      "fromNode": "2dcce15e334ced4d",
+      "fromSide": "bottom",
+      "toNode": "ddda0e7be98aac42",
+      "toSide": "top",
+      "color": "4",
+      "label": "VALID"
+    },
+    {
+      "id": "629e8eeaf57e8d87",
+      "fromNode": "c200ac7d65962155",
+      "fromSide": "right",
+      "toNode": "274b5e42e6f428bc",
+      "toSide": "left",
+      "color": "3",
+      "label": "Response\n(JSON)"
+    },
+    {
+      "id": "ccbe1197dd9f79c4",
+      "fromNode": "da2090d2f8f3f2d8",
+      "fromSide": "right",
+      "toNode": "756e9bdfe40d81b7",
+      "toSide": "left",
+      "color": "1",
+      "label": "NO"
+    },
+    {
+      "id": "913ffa234dc7a056",
+      "fromNode": "da2090d2f8f3f2d8",
+      "fromSide": "bottom",
+      "toNode": "c23e66883d77a4af",
+      "toSide": "left",
+      "color": "4",
+      "label": "YES"
+    },
+    {
+      "id": "00eb4731b51ff63e",
+      "fromNode": "c200ac7d65962155",
+      "fromSide": "right",
+      "toNode": "da2090d2f8f3f2d8",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "8ed66dfce2f789e0",
+      "edgeStyle": "long-dashed",
+      "fromNode": "ddda0e7be98aac42",
+      "fromSide": "bottom",
+      "toNode": "01b16357b625ddfd",
+      "toSide": "right"
+    },
+    {
+      "id": "4ddf9981d6a98f3e",
+      "edgeStyle": "long-dashed",
+      "fromNode": "c23e66883d77a4af",
+      "fromSide": "bottom",
+      "toNode": "55abbe50d915ec6c",
+      "toSide": "top"
+    },
+    {
+      "id": "a9734474a0de5501",
+      "fromNode": "57b21bd10eaa0179",
+      "fromSide": "left",
+      "toNode": "5599d88b85be88f7",
+      "toSide": "right",
+      "color": "4",
+      "label": "YES"
+    },
+    {
+      "id": "b3cc4e7e14d26b70",
+      "fromNode": "5599d88b85be88f7",
+      "fromSide": "bottom",
+      "toNode": "756e9bdfe40d81b7",
+      "toSide": "top"
+    },
+    {
+      "id": "b96c273e1ba3e75a",
+      "fromNode": "e5b95add3da2c2e2",
+      "fromSide": "left",
+      "toNode": "948e5923507ed578",
+      "toSide": "right"
+    },
+    {
+      "id": "969f96a438975095",
+      "fromNode": "f9147deed5b858ec",
+      "fromSide": "right",
+      "toNode": "fe34c59bda7fea72",
+      "toSide": "top",
+      "color": "4",
+      "label": "YES"
+    },
+    {
+      "id": "a8f244f9d9042b35",
+      "fromNode": "948e5923507ed578",
+      "fromSide": "left",
+      "toNode": "efe44fb5b84cff31",
+      "toSide": "right",
+      "color": "3",
+      "label": "pppos"
+    },
+    {
+      "id": "a773bf0d91b87e31",
+      "edgePathRoute": "a-star",
+      "fromNode": "efe44fb5b84cff31",
+      "fromSide": "left",
+      "toNode": "c200ac7d65962155",
+      "toSide": "left",
+      "color": "3",
+      "label": "GET Request (Disable certificate verification) over HTTP "
+    },
+    {
+      "id": "4f808791a170d038",
+      "fromNode": "ddda0e7be98aac42",
+      "fromSide": "left",
+      "toNode": "efe44fb5b84cff31",
+      "toSide": "right",
+      "color": "5",
+      "label": "pppos"
+    },
+    {
+      "id": "3bfc1862f8cdcb3e",
+      "fromNode": "efe44fb5b84cff31",
+      "fromSide": "top",
+      "toNode": "c200ac7d65962155",
+      "toSide": "top",
+      "color": "5",
+      "label": "POST Register request(SSL/HTTPS).\nParams:(name*,type*,engine*)"
+    },
+    {
+      "id": "ab0b696fa2825d1a",
+      "fromNode": "55abbe50d915ec6c",
+      "fromSide": "bottom",
+      "toNode": "b6cc0e533b68f0e8",
+      "toSide": "top",
+      "color": "1"
+    },
+    {
+      "id": "ae8473cf20925c10",
+      "fromNode": "11cdc7dbc560493a",
+      "fromSide": "right",
+      "toNode": "625993daa01cc817",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "45813227f59e862a",
+      "fromNode": "ca6b9e7f5c6671a5",
+      "fromSide": "bottom",
+      "toNode": "2a4fa72c75e0565e",
+      "toSide": "top"
+    },
+    {
+      "id": "b3eacf3d7707268b",
+      "fromNode": "352a9a566363a411",
+      "fromSide": "bottom",
+      "toNode": "ca6b9e7f5c6671a5",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {
+    "properties": {
+      "cssclasses": [
+        ""
+      ]
+    }
+  }
+}
